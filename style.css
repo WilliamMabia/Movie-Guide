@@ -20,8 +20,8 @@ body {
   position: absolute;
   transform: translate(
     -50%,
-    50%
-  ); /*position element in center both vertically and horizontally*/
+    -50%
+  ); /*position element in center both vertically and horizontally -also prevent box from extending to end of page*/
   top: 50%;
   left: 50%;
   border-radius: 0.6em;
