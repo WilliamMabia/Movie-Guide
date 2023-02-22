@@ -50,5 +50,6 @@ let getMovie = () => {
   }
 };
 
+/**Event Listeners */
 searchBtn.addEventListener("click", getMovie);
 window.addEventListener("load", getMovie);
